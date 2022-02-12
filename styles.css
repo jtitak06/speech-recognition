@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+section h1 {
+    color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    width: 100%;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+section p {
+    color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+}
+
+.texts p {
+    color: black;
+    text-align: left;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    margin-bottom: 10px;
+}
+
+.button {
+    border-radius: 50px;
+    padding: 5px;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.button:hover {
+    color: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(255, 255, 255, 1);
+}
+
+#start:focus {
+    background-color: green;
+    color: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(255, 255, 255, 1);
+}
+
+#stop:focus {
+    background-color: red;
+    color: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(255, 255, 255, 1);
+}
